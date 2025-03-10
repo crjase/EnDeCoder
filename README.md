@@ -24,4 +24,4 @@ encoded_data = endecoder.encode(data, key) # Encode the data using the key above
 
 decoded_data = endecoder.decode(encoded_data, key) # Decode the above encoded data using the same key above
 ```
-This should come without saying; You should always hide the key from view, treat is like a password, because that's what's used to decode the encoded data.
+The key is a key
